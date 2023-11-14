@@ -1,0 +1,26 @@
+/* Formulario */
+.input {
+    display: block;
+    width: 95%;
+    margin: 20px;
+    padding: 9px;
+    border: 1px solid #f1f1f1;
+}
+
+
+.btn-envio{
+    text-decoration: none;
+    padding: 12px;
+    background-color: #000;
+    color: #fffcfc;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.btn-envio:hover {
+    background-color: #c0bcbc;
+    color: #000;
+}
