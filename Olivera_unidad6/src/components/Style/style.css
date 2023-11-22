@@ -9,6 +9,8 @@
 
 
 .btn-envio{
+    width: 120px;
+    height:40px;
     text-decoration: none;
     padding: 12px;
     background-color: #000;

@@ -5,6 +5,7 @@ import Registro from './components/Registro/Registro'
 
 function App() {
 
+
   return (
     <>
     <h2>Registrese</h2>

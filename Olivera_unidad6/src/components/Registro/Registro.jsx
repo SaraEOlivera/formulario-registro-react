@@ -1,6 +1,10 @@
+import { useState } from 'react'
 import '../Style/style.css'
 
 const Registro = () => {
+    let alerta = alert("Enviado!")
+    const[mensaje, setAlerta] = useState(0)
+
     return (
 
         <form action="#">
@@ -47,11 +51,13 @@ const Registro = () => {
                 required=""
             />
             <input
-                className="btn-envio"
-                type="submit"
+                className="btn-envio" 
+                type="submit" 
                 name="enviar"
-                defaultValue="Enviar datos"
+                defaultValue="Enviar"
+                onSubmit={alerta}
             />
+
         </form>
     )
 }
